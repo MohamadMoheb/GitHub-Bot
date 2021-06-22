@@ -22,4 +22,4 @@ jsonfile.writeFile(FILE_PATH, data, ()=>{
     makeCommit.bind(this, --n));
 });}
 
-makeCommit(1500)
+makeCommit(1)
