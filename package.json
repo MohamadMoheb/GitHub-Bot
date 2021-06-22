@@ -1,0 +1,25 @@
+{
+  "name": "github-bot",
+  "version": "1.0.0",
+  "description": "github commit graph edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0edah0e/GitHub-Bot.git"
+  },
+  "author": "m0edah0e",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m0edah0e/GitHub-Bot/issues"
+  },
+  "homepage": "https://github.com/m0edah0e/GitHub-Bot#readme",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "random": "^3.0.6",
+    "simple-git": "^2.40.0"
+  }
+}
