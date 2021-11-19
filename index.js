@@ -22,6 +22,6 @@ jsonfile.writeFile(FILE_PATH, data, ()=>{
     makeCommit.bind(this, --n));
 });}
 
-makeCommit(1)
+makeCommit(499)
 
 //node index.js to run github bot
