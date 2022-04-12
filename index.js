@@ -7,7 +7,7 @@ const FILE_PATH = './data.json';
 
 const makeCommit = n => 
 {
-    const x = random.int(43,54);
+    const x = random.int(1,54);
     const y = random.int(0,6);
     const DATE = moment().subtract(1,'y').add(1,'d')
                 .add(x,'w').add(y,'d').format();
@@ -22,6 +22,6 @@ jsonfile.writeFile(FILE_PATH, data, ()=>{
     makeCommit.bind(this, --n));
 });}
 
-makeCommit(499)
+makeCommit(222)
 
 //node index.js to run github bot
