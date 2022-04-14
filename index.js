@@ -7,7 +7,7 @@ const FILE_PATH = './data.json';
 
 const makeCommit = n => 
 {
-    const x = random.int(1,54);
+    const x = random.int(1,200);
     const y = random.int(0,6);
     const DATE = moment().subtract(1,'y').add(1,'d')
                 .add(x,'w').add(y,'d').format();
